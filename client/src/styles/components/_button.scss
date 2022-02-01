@@ -1,0 +1,27 @@
+
+button.button_ok:disabled  {
+    opacity: .5;   // makes it appear faded out;  
+}
+
+// OK button to close modal 
+.button_modal {
+    background: $purple; 
+    border: none; 
+    border-bottom: .3rem solid darken($purple, 10%); 
+    color: white; 
+    font-weight: 500; 
+    padding: $s-size; 
+}
+
+// Style the Contestant Names in the grid as links 
+button.fakeButton {
+    border: none; 
+    background: none;
+    color: blue;        
+    text-decoration: underline; 
+}
+
+// Hide the left & right-arrow buttons when at page limits
+button.hideme {
+    visibility: hidden; 
+}
